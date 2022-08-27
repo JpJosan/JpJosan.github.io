@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product Page - FantacyDesigns</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="product-card">
+      <h1>NIKE RETRO AIR JORDANS 3</h1>
+      <h5> Normal Delivery</h5>
+      <h5> Fast Delivery</h5>
+      <h5> Premium Delivery</h5>
+      
+
+      
+
+      <div class="product-pic">
+        <img src="shoes.jpg" alt="">
+      </div>
+      
+      <div class="product-info">
+        <div class="product-weight">500 GM</div>
+        <a href="#" class="product-button">Select Delivery</a>
+      </div>
+    </div>
+ 
+    <script>
+      $(".product-colors span").click(function(){
+        $(".product-colors span").removeClass("active");
+        $(this).addClass("active");
+        $("body").css("background",$(this).attr("data-color"));
+        $(".product-price").css("color",$(this).attr("data-color"));
+        $(".product-button").css("color",$(this).attr("data-color"));
+        $(".product-pic").css("background-image",$(this).attr("data-pic"));
+      });
+    </script>
+  </body>
+</html>

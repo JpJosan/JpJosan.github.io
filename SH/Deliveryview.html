@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product Page - FantacyDesigns</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="product-card">
+        <h4>Shoes</h4>
+          <p>Delhi -> Patiala</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>5:00</span></td>
+              </tr>
+              <tr>
+                <td>Drop</td>
+              </tr>
+            </table>
+            <table>
+                <tr>
+                  <td><span>Thapar front gate, Patiala</span></td>
+                </tr>
+                <tr>
+                  <td>Exact location</td>
+                </tr>
+              </table>
+              
+
+      
+
+      <div class="product-pic">
+        <img src="shoes.jpg" alt="">
+      </div>
+      <div class="rate bg-success py-3 text-white mt-3">
+
+        <h6 class="mb-0">Rating Given:</h6>
+
+        <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+        </div>
+        
+    </div>
+        
+    </div>
+    </div>
+ 
+    <script>
+      $(".product-colors span").click(function(){
+        $(".product-colors span").removeClass("active");
+        $(this).addClass("active");
+        $("body").css("background",$(this).attr("data-color"));
+        $(".product-price").css("color",$(this).attr("data-color"));
+        $(".product-button").css("color",$(this).attr("data-color"));
+        $(".product-pic").css("background-image",$(this).attr("data-pic"));
+      });
+    </script>
+  </body>
+</html>

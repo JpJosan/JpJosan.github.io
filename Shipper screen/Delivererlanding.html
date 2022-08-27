@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="../shipeasy.html" class="logo">
+          <img src="delivery.png">
+          <span class="nav-item">Ship Easy</span>
+        </a></li>
+        <li><a href="../profile/profile.html">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">Account</span>
+        </a></li>
+        <li><a href="../shipeasy/User_registeration.html">
+          <i class="fas fa-route"></i>
+          <span class="nav-item">Route</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Activity</span>
+        </a></li>
+        <li><a href="#Deliveries">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Setting</span>
+        </a></li>
+
+        <li><a href="../shipeasy.html" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Deliveries on your route:</h1>
+
+      </div>
+
+      <div class="users ">
+        <div class="card">
+          <img src="shoes.jpg">
+          <h4>Shoes</h4>
+          <p>Delhi -> Patiala</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>12:00</span></td>
+                <td><span>5:00</span></td>
+              </tr>
+              <tr>
+                <td>Pick</td>
+                <td>Drop</td>
+              </tr>
+            </table>
+          </div>
+          <a href="E:\courses\Web developement\TinDog-Start-master\SH\file.html"><button class="">Info</button></a>
+          
+        </div>
+        <div class="card">
+          <img src="bottle.jpg">
+          <h4>Bootle</h4>
+          <p>Amabala -> Patiala</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>3:30</span></td>
+                <td><span>5:00</span></td>
+              </tr>
+              <tr>
+                <td>Pick</td>
+                <td>Drop</td>
+              </tr>
+            </table>
+          </div>
+          <a href="E:\courses\Web developement\TinDog-Start-master\SH\file.html"><button class="">Info</button></a>
+          
+        </div>
+        <div class="card">
+          <img src="headphone.jpg">
+          <h4>Headphone</h4>
+          <p>Sonipat -> Amabala</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>1:30</span></td>
+                <td><span>4:00</span></td>
+              </tr>
+              <tr>
+                <td>Pick</td>
+                <td>Drop</td>
+              </tr>
+            </table>
+          </div>
+          <a href="E:\courses\Web developement\TinDog-Start-master\SH\file.html"><button class="">Info</button></a>
+        </div>
+        <div class="card">
+          <img src="watch.jpg">
+          <h4>Watch</h4>
+          <p>Karnal -> Patiala</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>2:15</span></td>
+                <td><span>5:00</span></td>
+              </tr>
+              <tr>
+                <td>Pick</td>
+                <td>Drop</td>
+              </tr>
+            </table>
+          </div>
+          <a href="E:\courses\Web developement\TinDog-Start-master\SH\file.html"><button class="">Info</button></a>
+        </div>
+      </div>
+
+      <section class="attendance" id="Deliveries">
+        <div class="attendance-list">
+          <h1 class ="accept">Deliveries accepted:</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Pickup Time</th>
+                <th>Drop Time</th>
+                <th class=>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Sam David</td>
+                <td>Bags</td>
+                <td>03-24-22</td>
+                <td>2:00PM</td>
+                <td>5:00PM</td>
+                <td><a href="E:\courses\Web developement\TinDog-Start-master\SH\Deliveryview.html"><button>View</button></a></td>
+              </tr>
+              <tr class="active">
+                <td>02</td>
+                <td>Balbina Kherr</td>
+                <td>Books</td>
+                <td>03-24-22</td>
+                <td>1:00PM</td>
+                <td>4:00PM</td>
+                <td><a href="E:\courses\Web developement\TinDog-Start-master\SH\Deliveryview.html"><button>View</button></a></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Badan John</td>
+                <td>Protein powder</td>
+                <td>03-24-22</td>
+                <td>12:30PM</td>
+                <td>3:00PM</td>
+                <td><a href="E:\courses\Web developement\TinDog-Start-master\SH\Deliveryview.html"><button>View</button></a></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Sara David</td>
+                <td>Shoes</td>
+                <td>03-24-22</td>
+                <td>4:00PM</td>
+                <td>5:00PM</td>
+                <td><a href="E:\courses\Web developement\TinDog-Start-master\SH\Deliveryview.html"><button>View</button></a></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>

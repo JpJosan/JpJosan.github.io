@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="../../shipeasy.html" class="logo">
+          <img src="customer.jpg">
+          <span class="nav-item">Ship Easy</span>
+        </a></li>
+        <li><a href="../../profile/useraccount.html">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">Account</span>
+        </a></li>
+        <li><a href="#orders">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Activity</span>
+        </a></li>
+        <li><a href="../../Capstone/Delivererlanding.html">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="nav-item">Place order</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Setting</span>
+        </a></li>
+
+        <li><a href="../../shipeasy.html" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Welcome to ShipEasy:</h1>
+
+      </div>
+
+      <section class="attendance" id="orders">
+        <div class="attendance-list">
+          <h1 class ="accept">Your orders:</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Deliverer</th>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Pickup Time</th>
+                <th>Drop Time</th>
+                <th>Rating</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Sam David</td>
+                <td>Bags</td>
+                <td>03-24-22</td>
+                <td>2:00PM</td>
+                <td>5:00PM</td>
+                <td><a href="../../rating/rating.html"><button>Rate</button></a></td>
+                <td><a href="../../Location/location.html"><button>Location</button></a></td>
+              </tr>
+              <tr class="active">
+                <td>02</td>
+                <td>Balbina Kherr</td>
+                <td>Books</td>
+                <td>03-24-22</td>
+                <td>1:00PM</td>
+                <td>4:00PM</td>
+                <td><a href="../../rating/rating.html"><button>Rate</button></a></td>
+                <td><a href="../../Location/location.html"><button>Location</button></a></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Badan John</td>
+                <td>Protein powder</td>
+                <td>03-24-22</td>
+                <td>12:30PM</td>
+                <td>3:00PM</td>
+                <td><a href="../../rating/rating.html"><button>Rate</button></a></td>
+                <td><a href="../../Location/location.html"><button>Location</button></a></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Sara David</td>
+                <td>Shoes</td>
+                <td>03-24-22</td>
+                <td>4:00PM</td>
+                <td>5:00PM</td>
+                <td><a href="../../rating/rating.html"><button>Rate</button></a></td>
+                <td><a href="../../Location/location.html"><button>Location</button></a></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>
